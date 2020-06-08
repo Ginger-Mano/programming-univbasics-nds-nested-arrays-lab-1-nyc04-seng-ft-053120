@@ -28,7 +28,7 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  storage_room = 
+  storage_room =
   CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort
   storage_room
   # Using Array literal syntax only, build another nested array that
@@ -37,7 +37,7 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-
+  a = matrix(row, column)
   # Given any matrix (array of arrays), a row index and a column index,
   # Return the matrix's content at that row and and column
 end
