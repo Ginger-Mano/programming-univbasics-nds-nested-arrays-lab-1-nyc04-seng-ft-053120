@@ -28,9 +28,20 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  storage_room.sort = [
-  ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
-  ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
+  ORGANIC_PRODUCE.sort = [
+    "Strawberries",
+    "Potatoes",
+    "Grapes",
+    "Avocadoes",
+    "Asparagus"
+  ]
+
+  CONVENTIONAL_PRODUCE.sort = [
+    "Grapefruit",
+    "Pineapple",
+    "Oranges",
+    "Watermelon",
+    "Eggplant"
   ]
   storage_room
   # Using Array literal syntax only, build another nested array that
